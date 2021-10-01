@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="388dp"
+        android:layout_height="62dp"
+        android:text="TOAST"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp"
+        android:onClick="toastklik"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="418dp"
+        android:layout_height="520dp"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/purple_500"
+        android:textSize="190dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/count"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toast" />
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="391dp"
+        android:layout_height="54dp"
+        android:background="@color/purple_500"
+        android:text="COUNT"
+        android:textColor="@color/purple_200"
+        android:textSize="30dp"
+        android:onClick="counterklik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counter" />
+</androidx.constraintlayout.widget.ConstraintLayout>
