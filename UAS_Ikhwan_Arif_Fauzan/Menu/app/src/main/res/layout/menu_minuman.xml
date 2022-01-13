@@ -34,7 +34,7 @@
             android:layout_gravity="bottom|left"/>
 
         <Button
-            android:id="@+id/finalpesan"
+            android:id="@+id/checkout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

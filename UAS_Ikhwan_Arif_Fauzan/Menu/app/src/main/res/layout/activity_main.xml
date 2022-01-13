@@ -4,23 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
-    tools:context=".detail_makanan">
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:textSize="20dp"
-        android:text="Nasi Padang\n\nNasi dengan Sejumlah lauk khas daerah Padang\n\nRp.30.000"
-        android:textColor="@color/black"
-        android:gravity="bottom"/>
-
+        android:gravity="center|bottom"
+        android:textSize="30dp"
+        android:text="Mau Pesan Apa Hari Ini? :-)"
+        android:textStyle="bold"
+        android:textColor="@color/kuning"/>
     <Button
-        android:id="@+id/pilihmakan"
+        android:id="@+id/pesan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pilih"
-        android:layout_gravity="bottom|right"
+        android:text="Pesan"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
         android:textColor="@color/kuning"/>
+
 
 </LinearLayout>

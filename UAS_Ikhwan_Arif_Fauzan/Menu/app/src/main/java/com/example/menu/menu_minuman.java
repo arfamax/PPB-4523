@@ -52,7 +52,7 @@ public class menu_minuman extends AppCompatActivity {
         });
 
         // popup saat memesan
-        pesan = (Button) findViewById(R.id.finalpesan);
+        pesan = (Button) findViewById(R.id.checkout);
         pesan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

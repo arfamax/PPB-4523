@@ -8,10 +8,24 @@
     tools:context=".detail_makanan">
 
     <TextView
+        android:id="@+id/nama_mnuman"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="200dp"
         android:textSize="20dp"
-        android:text="Jus Jeruk\n\nJeruk dengan sentuhan blender dan campuran gula\n\nRp.10.000"
+        android:text="Jus Jeruk"
+        android:textColor="@color/black"
+        android:gravity="center|bottom" />
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="300dp"
+        android:background="@drawable/jusjeruk"
+        android:textColor="@color/black"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="20dp"
+        android:text="Jeruk dengan sentuhan blender dan campuran gula\n\nRp.10.000"
         android:textColor="@color/black"
         android:gravity="bottom" />
 

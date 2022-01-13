@@ -4,25 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:gravity="center|bottom"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:textSize="30dp"
-        android:text="Mau Pesan Apa Hari Ini? :-)"
-        android:textStyle="bold"
-        android:textColor="@color/kuning"/>
+        android:text="Keranjang"/>
+    <ListView
+        android:id="@+id/daftar_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
     <Button
-        android:id="@+id/pesan"
+        android:id="@+id/btnpesanan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pesan"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center"
-        android:textColor="@color/kuning"/>
+        android:text="pesan"
+        android:textColor="@color/kuning"
+        android:layout_gravity="bottom|right"/>
+
 
 </LinearLayout>
